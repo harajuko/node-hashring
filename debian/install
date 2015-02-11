@@ -1,0 +1,3 @@
+package.json usr/lib/nodejs/hashring/
+index.js usr/lib/nodejs/hashring/
+build/Release/hashvalue.node usr/lib/nodejs/hashring/build

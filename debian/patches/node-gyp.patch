@@ -1,0 +1,13 @@
+Index: node-hashring/binding.gyp
+===================================================================
+--- node-hashring.orig/binding.gyp	2015-02-11 17:41:01.583066347 +0100
++++ node-hashring/binding.gyp	2015-02-11 17:45:55.015048167 +0100
+@@ -2,7 +2,7 @@
+   "targets": [
+     {
+       "target_name": "hashvalue",
+-      'include_dirs': ["<!(node -e \"require('nan')\")"],
++      'include_dirs': ["<!(nodejs -e \"require('nan')\")"],
+       "sources": [ "src/hashvalue.cc" ]
+     }
+   ]

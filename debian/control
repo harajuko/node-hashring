@@ -1,0 +1,29 @@
+Source: node-hashring
+Section: web
+Priority: extra
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Mario Cimini <mario.cimini@gmail.com>
+Build-Depends: 
+ debhelper (>= 8),
+ dh-buildinfo,
+ nodejs,
+ node-bindings,
+ node-nan,
+ node-gyp
+Standards-Version: 3.9.6
+Homepage: http://github.com/3rd-Eden/node-hashring/
+Vcs-Git: git://anonscm.debian.org/pkg-javascript/node-hashring.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-javascript/node-hashring.git
+
+Package: node-hashring
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-bindings (>= 1.2.1)
+ , node-nan (>= 1.3.0)
+Description: A consistent hashring compatible with ketama hashing and python's hash_ring
+ The HashRing module provides consistent hashing that is compatible with the 
+ original libketama library that was developed at last.fm. In addition to beeing 
+ compatible with libketama it's also compatible with the hash_ring module for 
+ Python. See the compatiblity section of the API for more details on this.

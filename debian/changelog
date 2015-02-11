@@ -1,0 +1,5 @@
+node-hashring (3.1.0-1) unstable; urgency=low
+
+  * Initial release packaging
+
+ -- Mario Cimini <mario.cimini@gmail.com>  Wed, 11 Feb 2015 17:41:10 +0100
